@@ -81,11 +81,11 @@ function controlFlujo() {
     let total = totalPagar(prestado, interes, mora, iva);
 
     alert(`
-        ${prestado}
-        ${interes}
-        ${mora}
-        ${iva}
-        ${total}
+        Ha solicitado un prestamo de: $${prestado} +
+        con un interes del 35% +
+        tasa de mora de 45% +
+        IVA de 22% +
+        El precio total final es de: $${total}
     `);
 
     document.write(`El total a pagar es de: ${total}`)
