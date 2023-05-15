@@ -1,0 +1,12 @@
+Para el proyecto se pide:
+
+    Arrays,
+    Estructura,
+    Funciones
+    Objetos,
+    Variables,
+
+
+Se pide un simulador que interactue con el usuario mediante una entrada
+de datos, se procese o se maneje y posteriormente se imprima en una salida.
+
