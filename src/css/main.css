@@ -51,24 +51,34 @@ img {
   border-radius: 20px;
 }
 
+.contenedor {
+  width: 90%;
+  height: 300px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
 /* Codigo */
 .header {
   background-color: #123456;
   box-shadow: #123456 0px 1px 10px 5px;
   padding: 1.2rem;
 }
+
 .header__logo {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .header__logo .header__logo--txt {
   color: #eee;
   margin: 0 auto;
   transition: all 0.4s ease-in;
   font-size: 1.4em;
 }
+
 .header__logo .header__logo--txt:hover {
   transition: all 0.2s ease-out;
   color: #fafa1a;
@@ -78,6 +88,7 @@ img {
   width: 100%;
   height: auto;
 }
+
 .main .container {
   width: 80%;
   height: auto;
